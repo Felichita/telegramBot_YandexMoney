@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'PFDInTextCondPro';
+  src: local("PFDInTextCondPro"), local("PFDInTextCondPro-Regular"), url("../../fonts/pfdintextcondpro/Regular/pfdintextcondpro-regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Regular Italic*/
+@font-face {
+  font-family: "PFDInTextCondPro";
+  src: local("PFDInTextCondPro"), local("PFDInTextCondPro-Regular"), url("../../fonts/pfdintextcondpro/Regular-Italic/pfdintextcondpro-italic.ttf");
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* Medium */
+@font-face {
+  font-family: "PFDInTextCondPro";
+  src: local("PFDInTextCondPro"), local("PFDInTextCondPro-Medium"), url("../../fonts/pfdintextcondpro/Medium/pfdintextcondpro-medium.ttf");
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* Medium Italic */
+@font-face {
+  font-family: "PFDInTextCondPro";
+  src: local("PFDInTextCondPro"), local("PFDInTextCondPro-Medium"), url("../../fonts/pfdintextcondpro/Medium-Italic/pfdintextcondpro-medital.ttf");
+  font-style: italic;
+  font-weight: 600;
+}
+
+/* Bold */
+@font-face {
+  font-family: "PFDInTextCondPro";
+  src: local("PFDInTextCondPro"), local("PFDInTextCondPro-Bold"), url("../../fonts/pfdintextcondpro/Bold/pfdintextcondpro-bold.ttf");
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* Bold Italic */
+@font-face {
+  font-family: "PFDInTextCondPro";
+  src: local("PFDInTextCondPro"), local("PFDInTextCondPro-Bold"), url("../../fonts/pfdintextcondpro/Bold-Italic/pfdintextcondpro-boldital.ttf");
+  font-style: italic;
+  font-weight: bold;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+/* Thnaks */
+.thanks-container {
+  font-family: "PFDInTextCondPro", "Open Sans", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-color: #007fca;
+  color: white;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.thanks__heading {
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.thanks__info {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.thanks__info a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.thanks__close {
+  display: block;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  cursor: pointer;
+  opacity: 0.6;
+  -webkit-transition: opacity 0.2s ease;
+  -moz-transition: opacity 0.2s ease;
+  -ms-transition: opacity 0.2s ease;
+  -o-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+
+.thanks__close:hover,
+.thanks__close:focus {
+  opacity: 1;
+}
+
+.thanks__close:before,
+.thanks__close:after {
+  content: '';
+  display: block;
+  height: 4px;
+  width: 30px;
+  position: absolute;
+  top: 12px;
+  background-color: white;
+}
+
+.thanks__close:before {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.thanks__close:after {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
