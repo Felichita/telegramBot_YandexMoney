@@ -1,0 +1,21 @@
+{
+  "name": "tmbot",
+  "version": "0.1.0",
+  "private": true,
+  "contributors": [
+    "Nikita Dolmatov <SpektrEG@gmail.com>",
+    "Fedor Nikolaev <FridrixNM@yandex.ru>"
+  ],
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "express": "~4.13.1",
+    "node-schedule": "^1.1.0",
+    "request": "^2.69.0",
+    "yandex-money-sdk": "^1.0.0",
+    "node-telegram-api": ... 
+  },
+  "port": "80"
+}

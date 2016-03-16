@@ -1,0 +1,19 @@
+{
+	"yandexAPI": {
+		"clientId": "Your clientId",
+        "clientSecret" : "Your clientSecret",
+		"scope": ["account-info","operation-history","operation-details","incoming-transfers","payment-p2p","payment-shop"], 
+		"response_type": "code",
+		"redirectURI": "Your redirectURI"
+	},
+	"telegramAPI": {
+		"token": "give token BotFather"
+	},
+	"db": {
+		"url": "mongodb://localhost:27017/YandexBot",
+		"options": {
+			"user": "user",
+			"pass": "Password"
+		}
+	}
+}
